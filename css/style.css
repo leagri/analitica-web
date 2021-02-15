@@ -1,0 +1,180 @@
+.ImgNosotros {
+  width: 250px; }
+
+.sectionHomeMargin {
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+.sectionForm {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.ImgCiudad {
+  width: 250px; }
+
+@media (max-width: 600px) {
+  .ImgNosotros {
+    display: none; }
+  .ImgCiudad {
+    display: none; } }
+
+.navStyle {
+  background-color: white;
+  height: 30px;
+  margin-bottom: 20px; }
+
+.menuPrincipal {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+
+.logo {
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px; }
+
+.header {
+  margin-bottom: 80px; }
+
+.header__imgLogo {
+  height: 30px;
+  text-align: left; }
+
+.menuPrincipal li {
+  width: 10%;
+  margin: 5px;
+  padding: 5px; }
+
+.header__menuItem {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-family: "Roboto Mono";
+  transition: background-color 1s;
+  padding: 10px; }
+
+.menuItem:hover {
+  background-color: #D2FFEE; }
+
+.menuPrincipal a {
+  float: left;
+  text-align: center; }
+
+.tituloHome {
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto Mono";
+  font-size: 30px;
+  color: #13A308;
+  animation-duration: 5s;
+  animation-name: titulo_aparece; }
+
+.textoCentrado {
+  align-content: center;
+  align-items: center;
+  justify-content: center; }
+
+@keyframes titulo_aparece {
+  0% {
+    opacity: 0.3; }
+  100% {
+    opacity: 1; } }
+
+.imgHome {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px; }
+
+.subtitleHome {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #007bff; }
+
+.mainTable {
+  border: solid 2px grey;
+  background-color: #E2DFDF;
+  padding: 5px; }
+
+.imgIcon {
+  height: 50px;
+  margin: 5px; }
+
+th {
+  font-style: italic; }
+
+.tablaPrincipal {
+  list-style-image: url("Imagenes/check.png"); }
+
+.textoCentrado {
+  text-align: center; }
+
+.imgNosotros {
+  height: 200px;
+  margin: 10px 20px 10px 20px;
+  position: relative;
+  top: 20px;
+  left: 30px; }
+
+.formHome {
+  background-image: linear-gradient(to right, #D0E4FF, #F5F7FF); }
+
+.footer {
+  text-align: center;
+  background-color: #4ecdc4;
+  color: white;
+  margin-top: 10px; }
+
+.footer__titulo {
+  height: 20px;
+  font-size: 20px; }
+
+.divFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px; }
+
+.footer_img {
+  height: 20px;
+  margin: 10px 20px 10px 20px;
+  transition: height; }
+
+.footer_img:hover {
+  height: 25px; }
+
+.campoForm {
+  margin: 5px; }
+
+#serviciosHero {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  margin-top: 50px; }
+
+.serBox {
+  background-color: #4F57F5;
+  width: 30px;
+  height: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  transform: skew(30deg); }
+
+@media (max-width: 768px) {
+  .resetInput {
+    visibility: hidden; } }
+
+.imgCarousel {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%; }
+
+.borderControl {
+  border: 1px solid black; }
