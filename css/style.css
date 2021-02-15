@@ -177,9 +177,15 @@ th {
     visibility: hidden; } }
 
 .imgCarousel {
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%; }
+  margin-left: 20%;
+  margin-right: 20%; }
 
-.borderControl {
-  border: 1px solid black; }
+.carousel-control-next {
+  border: 0px; }
+
+.carousel-control-prev {
+  border: 0px; }
+
+.carouselInside {
+  justify-content: center;
+  align-items: center; }
